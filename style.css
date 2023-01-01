@@ -1,0 +1,52 @@
+* {
+    /* companies branded color */
+    /* hex  #75e6d4*/
+    color: rgb(117, 230, 212)
+}
+
+a {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    text-align: justify;
+}
+
+.patch {
+    bottom: 2px;
+    width: 40vw;
+}
+
+.main {
+    width: 100vw;
+    height: 25vh;
+    min-width: fit-content;
+}
+
+.uniform {
+    height: 45vh;
+    top: 10px;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #75e6d3;
+    font-style: italic;
+    color: #75e6d3;
+}
+
+aside>p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
