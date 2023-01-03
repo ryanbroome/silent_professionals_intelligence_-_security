@@ -1,0 +1,109 @@
+* {
+    /* companies branded color */
+    /* hex  #75e6d4*/
+}
+
+:root {
+    --main-color: rgba(117, 230, 212,1);
+    --second-color: rgba(0,0,0,1);
+}
+
+body {
+    color: var(--main-color);
+    background-color: var(--second-color);
+}
+
+a {
+    color: var(--main-color);
+}
+
+p {
+    text-align: justify;
+}
+
+.patch {
+    bottom: 2px;
+    width: 31vw;
+    max-width: 450px;
+}
+
+.main {
+    width: 100vw;
+    height: 25vh;
+    min-width: fit-content;
+}
+
+.uniform {
+    height: 45vh;
+    top: 10px;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #75e6d3;
+    font-style: italic;
+    color: #75e6d3;
+}
+
+aside>p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* NAVBAR START */
+
+
+.navbar {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    justify-content: center;
+}
+
+.links > a {
+    color: var(--second-color);
+    margin-left: 10px;
+}
+
+.navLogo {
+    height: 60px;
+    width: 90px;
+}
+
+/* NAVBAR END */
+
+/* LANDING START */
+
+.landLogo {
+    width: 50vw;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+#landContent {
+    padding: 30px;
+    min-height: 500px;
+    text-align: center;
+}
+
+/* LANDING END */
+
+/* FOOTER START */
+
+#footer {
+    text-align: center;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding-bottom: 5px; 
+    bottom: 0px;
+}
+
+#footer > h6 > a {
+    color: blue;
+}
