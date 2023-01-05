@@ -20,3 +20,7 @@
 --CSS formatting for landContent sections. converted patchLogo to vw so it scales to window.
 
 --cropped uniform.png to be more centered
+
+--1-4-2023 // Kenyon
+
+--created sideNav element with top nav toggle button

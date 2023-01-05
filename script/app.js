@@ -35,3 +35,27 @@ document.getElementById('theme').addEventListener('click',() => {
 
 // DARK MODE FUNCTIONALITY END
 
+// SIDENAV FUNCTIONALITY START
+
+document.getElementById('menu').addEventListener('click',()=>{
+    if (document.getElementById('sideNav').style.width == '0px') {
+        document.getElementById('sideNav').style.width = '250px';
+    } else {
+        document.getElementById('sideNav').style.width = '0px';
+    }
+});
+
+document.getElementById('closeMenu').addEventListener('click',()=>{
+    if (document.getElementById('sideNav').style.width == '0px') {
+        document.getElementById('sideNav').style.width = '250px';
+    } else {
+        document.getElementById('sideNav').style.width = '0px';
+    }
+})
+
+
+
+// SIDENAV FUNCTIONALITY END
+
+
+

@@ -44,10 +44,20 @@ p {
     margin-left: 10px;
 }
 
-nav > button {
+#theme {
+    border: none;
     position: absolute;
     right: 0;
     margin-right: 30px;
+    background-color: var(--main-color);
+}
+
+#menu {
+    border: none;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    background-color: rgba(117, 230, 212,1);
 }
 
 nav > button:focus {
@@ -66,6 +76,28 @@ nav > button > img {
 }
 
 /* NAVBAR END */
+
+/* SIDENAV START */
+
+#sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.menu > img {
+    width: 30px;
+    height: 30px;
+}
+
+/* SIDENAV END */
 
 /* LANDING START */
 
@@ -100,10 +132,15 @@ nav > button > img {
     color: var(--second-color)
 }
 
+.top {
+    width: 21vw;
+}
+
 .patch {
     bottom: 2px;
-    width: 21vw;
+    width: 10vw;
     max-width: 250px;
+    border-radius: 5px;
 }
 
 /* LANDING END */
