@@ -39,15 +39,16 @@ document.getElementById('theme').addEventListener('click',() => {
 
 document.getElementById('menu').addEventListener('click',()=>{
     if (document.getElementById('sideNav').style.width == '0px') {
-        document.getElementById('sideNav').style.width = '250px';
+        document.getElementById('sideNav').style.width = '100%';
     } else {
         document.getElementById('sideNav').style.width = '0px';
     }
+    document.getElementById('closeMenu').style.display = '';
 });
 
 document.getElementById('closeMenu').addEventListener('click',()=>{
     if (document.getElementById('sideNav').style.width == '0px') {
-        document.getElementById('sideNav').style.width = '250px';
+        document.getElementById('sideNav').style.width = '100%';
     } else {
         document.getElementById('sideNav').style.width = '0px';
     }

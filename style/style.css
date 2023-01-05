@@ -97,6 +97,26 @@ nav > button > img {
     height: 30px;
 }
 
+#closeMenu {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    #sideNav {
+        width: 15%;
+    }
+
+    #landContent {
+        margin-left: 15%;
+    }
+
+}
+
+@media (min-width: 760px) {
+    
+    
+}
+
 /* SIDENAV END */
 
 /* LANDING START */
