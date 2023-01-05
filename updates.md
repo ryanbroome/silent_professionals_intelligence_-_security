@@ -11,3 +11,12 @@
 --randomized Lorems for more natural formatted
 
 --footers accreddited with Linkedin hrefs
+
+
+1-4-2023 // Kenyon
+
+--created button in nav that toggles color theme switch. granted alternative theme is kinda ugly, but can be changed to something better. i prefer black background and cyan nav and sections
+
+--CSS formatting for landContent sections. converted patchLogo to vw so it scales to window.
+
+--cropped uniform.png to be more centered

@@ -13,24 +13,8 @@ body {
     background-color: var(--second-color);
 }
 
-a {
-    color: var(--main-color);
-}
-
 p {
     text-align: justify;
-}
-
-.patch {
-    bottom: 2px;
-    width: 31vw;
-    max-width: 450px;
-}
-
-.main {
-    width: 100vw;
-    height: 25vh;
-    min-width: fit-content;
 }
 
 .uniform {
@@ -38,17 +22,7 @@ p {
     top: 10px;
 }
 
-aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #75e6d3;
-    font-style: italic;
-    color: #75e6d3;
-}
-
-aside>p {
+aside > p {
     margin: 0.5rem;
 }
 
@@ -68,6 +42,22 @@ p {
 .links > a {
     color: var(--second-color);
     margin-left: 10px;
+}
+
+nav > button {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+nav > button:focus {
+    outline: none;
+}
+
+
+nav > button > img {
+    height: 30px;
+    width: 30px;
 }
 
 .navLogo {
@@ -90,6 +80,30 @@ p {
     padding: 30px;
     min-height: 500px;
     text-align: center;
+    
+}
+
+#landContent > section {
+    padding: 20px;
+    border-radius: 7px;
+    color: var(--second-color);
+    background-color: var(--main-color);
+}
+
+#landContent > section > aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px var(--second-color);
+    font-style: italic;
+    color: var(--second-color)
+}
+
+.patch {
+    bottom: 2px;
+    width: 21vw;
+    max-width: 250px;
 }
 
 /* LANDING END */
